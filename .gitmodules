@@ -1,0 +1,6 @@
+[submodule "fisa-vim-config"]
+	path = fisa-vim-config
+	url = https://github.com/fisadev/fisa-vim-config.git
+[submodule "oh-my-zsh"]
+	path = oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
