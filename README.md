@@ -10,6 +10,7 @@ The credits are for:
 * [norm](http://github.com/norm/homedir)
 * [robbyrussell](https://github.com/robbyrussell/oh-my-zsh)
 * [fisadev](https://github.com/fisadev/fisa-vim-config)
+* [yesmeck](https://github.com/yesmeck/tmuxrc)
 
 ## Installation, **Are you sure?**
 
