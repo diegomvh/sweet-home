@@ -78,3 +78,19 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# virtualenv
+export WORKON_HOME=~/.virtualenvs
+source /usr/bin/virtualenvwrapper.sh
+
+# Editor
+export EDITOR="vim"
+
+# Alias
+alias v=vim
+alias g=git
+alias py=python
+alias dj='python manage.py '
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache # PIP cache
