@@ -19,7 +19,7 @@
 #
 [merge]
   summary = true
-  tool = opendiff
+  tool = medl
   defaultToUpstream = true
 
 # Color configuration.
