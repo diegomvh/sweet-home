@@ -45,7 +45,9 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git archlinux virtualenv virtualenvwrapper rvm pip python)
+plugins=(git git-extras git-flow archlinux virtualenv 
+virtualenvwrapper rvm pip nvm 
+python node grunt bower)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -91,6 +93,14 @@ alias v=vim
 alias g=git
 alias py=python
 alias dj='python manage.py '
+alias ipy="python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'"
 
+# pip
+alias pipcache='pip install --download ${HOME}/.pip-packages'
+alias pipinstall='pip install --no-index --find-links=file://${HOME}/.pip-packages/'
+
+# rvm
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache # PIP cache
+
+# nvm
+source /usr/share/nvm/init-nvm.sh
